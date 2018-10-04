@@ -1,0 +1,3 @@
+lat long    title   description icon    iconSize	iconOffset
+
+45.173052   5.695649    Maison  Domicile de Fred    Ol_icon_blue_example.png

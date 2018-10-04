@@ -1,0 +1,527 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Les keeps</title>
+        <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="16x16">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <link rel='stylesheet' id='font-sourcesans-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C700&#038;ver=0.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='main-css'  href='css/global-2.css' type='text/css' media='all' />
+    <script type="text/javascript">
+    			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.epsi.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.11"}};
+    			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+    		</script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>EPSI</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index.html">
+                        Accueil
+                    </a>
+                </li>
+                <li>
+                    <a href="visite.html">
+                        Visite virtuelle
+                    </a>
+                </li>
+                <li>
+                    <a href="interets.html">
+                        Autour du campus
+                    </a>
+                </li>
+                <li>
+                    <a href="formation.html">
+                        Formations
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- Page Content  -->
+        <div id="content">
+            <div class="zone-contenu">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-left"></i>
+                        </button>
+                        <a style="color: white; text-decoration: none;">Learn code lead !</a>
+                    </div>
+                </nav>
+
+                <div class="container">
+                    <div class="inner">
+
+                        <h2 id="TitreFormulaire">Demande de Contact</h2>
+
+                        <div class="form-group">
+                                    <div class="col-sm-3">
+                                        <span id="LabelCivilite" class="control-label" for="Email">Civilité :</span><span
+                                            class="ResumeErreurs">*</span>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <select name="DropDownListCivilite" id="DropDownListCivilite" tabindex="5" class="form-control">
+                        	<option value="1">Monsieur</option>
+                        	<option value="2">Madame</option>
+                        	<option value="3">Mademoiselle</option>
+
+                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-3">
+                                        <span id="LabelNom" class="control-label" for="Email">Nom :</span>
+                                        <span class="ResumeErreurs">*</span>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <input name="TextBoxNom" type="text" maxlength="25" id="TextBoxNom" tabindex="100" class="form-control" required="true" placeholder="Nom" />
+                                        <span id="RequiredFieldValidatorNom" style="color:Red;display:none;">Merci de renseigner votre nom</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-3">
+                                        <span id="LabelPrenom" class="control-label">Prénom :</span><span class="ResumeErreurs">*</span>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <input name="TextBoxPrenom" type="text" maxlength="25" id="TextBoxPrenom" tabindex="110" class="form-control" required="true" placeholder="Prénom" />
+                                        <span id="RequiredFieldValidatorPrenom" style="color:Red;display:none;">Merci de renseigner votre prénom</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-3">
+                                        <span id="LabelEmail" class="control-label">Email :</span><span class="ResumeErreurs">*</span>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <input name="TextBoxEmail" type="text" maxlength="100" id="TextBoxEmail" tabindex="120" class="form-control" placeholder="email" required="true" />
+                                        <span id="RequiredFieldValidatorEmail" style="color:Red;display:none;">Merci de renseigner votre adresse mail</span>
+                                        <span id="EmailRegularExpressionValidator" LocalizedErrorMessage="Email" style="color:Red;display:none;">Adresse mail non valide</span>
+                                    </div>
+                                </div>
+                                <!-- date de naissance -->
+
+                                        <!-- debut zone Coordonnées postal -->
+                                        <div id="LocalizedPanelCoordonneesPostales" class="form-group">
+
+
+                                            <div class="form-group">
+                                                <div class="col-sm-3">
+                                                    <span id="LabelAdresse" class="control-label">Adresse :</span>
+                                                    <span id="mandatory_adr1" class="ResumeErreurs">*</span>
+                                                </div>
+                                                <div class="col-sm-9">
+                                                    <input name="TextBoxAdresse" type="text" maxlength="50" id="TextBoxAdresse" tabindex="140" class="form-control" onblur="Format('pascalcase', this)" required="true" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-3">
+                                                    <span id="LabelAdresseSuite" class="control-label">Adresse 2 :</span>
+                                                </div>
+                                                <div class="col-sm-9">
+                                                    <input name="TextBoxAdresseSuite" type="text" maxlength="50" id="TextBoxAdresseSuite" tabindex="150" class="form-control" onblur="Format('pascalcase', this)" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-3">
+                                                    <span id="LabelAdresseSuite2" class="control-label">Adresse 3 :</span>
+                                                </div>
+                                                <div class="col-sm-9">
+                                                    <input name="TextBoxAdresseSuite2" type="text" maxlength="50" id="TextBoxAdresseSuite2" tabindex="160" class="form-control" onblur="Format('pascalcase', this)" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-3">
+                                                    <span id="LabelCodePostal" class="control-label">Code postal :</span>
+                                                    <span id="mandatory_cp" class="ResumeErreurs">*</span>
+                                                </div>
+                                                <div class="col-sm-9">
+                                                    <input name="TextBoxCodePostal" type="text" maxlength="10" id="TextBoxCodePostal" tabindex="170" class="form-control" required="true" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-3">
+                                                    <span id="LabelVille" class="control-label">Ville :</span>
+                                                    <span id="mandatory_ville" class="ResumeErreurs">*</span>
+                                                </div>
+                                                <div class="col-sm-9">
+                                                    <input name="TextBoxVille" type="text" maxlength="50" id="TextBoxVille" tabindex="180" class="form-control" onblur="Format('upper', this)" required="true" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-3">
+                                                    <span id="LabelPays" class="control-label">Pays :</span>
+                                                </div>
+                                                <div class="col-sm-9">
+                                                    <select name="ddl_pays" id="ddl_pays" tabindex="190" class="control-label">
+                                		<option value="000"> NON CONNU</option>
+                                		<option value="004">AFGHANISTAN</option>
+                                		<option value="710">AFRIQUE DU SUD</option>
+                                		<option value="008">ALBANIE</option>
+                                		<option value="012">ALG&#201;RIE</option>
+                                		<option value="276">ALLEMAGNE</option>
+                                		<option value="020">ANDORRE</option>
+                                		<option value="024">ANGOLA</option>
+                                		<option value="530">ANTILLES N&#201;ERLANDAISES</option>
+                                		<option value="682">ARABIE S&#201;OUDITE</option>
+                                		<option value="032">ARGENTINE</option>
+                                		<option value="051">ARM&#201;NIE</option>
+                                		<option value="533">ARUBA</option>
+                                		<option value="036">AUSTRALIE</option>
+                                		<option value="040">AUTRICHE</option>
+                                		<option value="031">AZERBA&#207;DJAN</option>
+                                		<option value="044">BAHAMAS</option>
+                                		<option value="048">BAHRE&#207;N</option>
+                                		<option value="050">BANGLADESH</option>
+                                		<option value="056">BELGIQUE</option>
+                                		<option value="084">B&#201;LIZE</option>
+                                		<option value="204">B&#201;NIN</option>
+                                		<option value="060">BERMUDES</option>
+                                		<option value="064">BHOUTAN</option>
+                                		<option value="112">BI&#201;LORUSSIE</option>
+                                		<option value="104">BIRMANIE (MYANMAR)</option>
+                                		<option value="068">BOLIVIE</option>
+                                		<option value="070">BOSNIE-HERZ&#201;GOVINE</option>
+                                		<option value="072">BOTSWANA</option>
+                                		<option value="076">BR&#201;SIL</option>
+                                		<option value="096">BRUNE&#207;</option>
+                                		<option value="100">BULGARIE</option>
+                                		<option value="854">BURKINA FASO</option>
+                                		<option value="108">BURUNDI</option>
+                                		<option value="116">CAMBODGE</option>
+                                		<option value="120">CAMEROUN</option>
+                                		<option value="124">CANADA</option>
+                                		<option value="132">CAP VERT</option>
+                                		<option value="140">CENTRAFRICAINE (R&#233;publique)</option>
+                                		<option value="152">CHILI</option>
+                                		<option value="156">CHINE</option>
+                                		<option value="196">CHYPRE</option>
+                                		<option value="170">COLOMBIE</option>
+                                		<option value="174">COMORES</option>
+                                		<option value="178">CONGO</option>
+                                		<option value="180">CONGO (R&#233;publique d&#233;mocratique du)</option>
+                                		<option value="410">COR&#201;E (R&#233;publique de)</option>
+                                		<option value="408">COR&#201;E (R&#233;publique populaire d&#233;mocratique de)</option>
+                                		<option value="188">COSTA RICA</option>
+                                		<option value="384">C&#212;TE D'IVOIRE</option>
+                                		<option value="191">CROATIE</option>
+                                		<option value="192">CUBA</option>
+                                		<option value="208">DANEMARK</option>
+                                		<option value="262">DJIBOUTI</option>
+                                		<option value="214">DOMINICAINE (R&#233;publique)</option>
+                                		<option value="212">DOMINIQUE</option>
+                                		<option value="818">&#201;GYPTE</option>
+                                		<option value="784">&#201;MIRATS ARABES UNIS</option>
+                                		<option value="218">&#201;QUATEUR</option>
+                                		<option value="232">&#201;RYTR&#201;E</option>
+                                		<option value="724">ESPAGNE</option>
+                                		<option value="233">ESTONIE</option>
+                                		<option value="840">&#201;TATS UNIS</option>
+                                		<option value="231">&#201;THIOPIE</option>
+                                		<option value="234">F&#201;RO&#201; (&#206;les)</option>
+                                		<option value="242">FIDJI</option>
+                                		<option value="246">FINLANDE</option>
+                                		<option selected="selected" value="250">FRANCE</option>
+                                		<option value="266">GABON</option>
+                                		<option value="270">GAMBIE</option>
+                                		<option value="268">GEORGIE</option>
+                                		<option value="288">GHANA</option>
+                                		<option value="292">GIBRALTAR</option>
+                                		<option value="300">GR&#200;CE</option>
+                                		<option value="308">GRENADE</option>
+                                		<option value="304">GRO&#203;NLAND</option>
+                                		<option value="316">GUAM</option>
+                                		<option value="320">GUAT&#201;MALA</option>
+                                		<option value="324">GUIN&#201;E</option>
+                                		<option value="226">GUIN&#201;E &#201;QUATORIALE</option>
+                                		<option value="624">GUINE&#201;-BISSAU</option>
+                                		<option value="328">GUYANA</option>
+                                		<option value="332">HA&#207;TI</option>
+                                		<option value="340">HONDURAS</option>
+                                		<option value="344">HONG KONG</option>
+                                		<option value="348">HONGRIE</option>
+                                		<option value="356">INDE</option>
+                                		<option value="360">INDON&#201;SIE</option>
+                                		<option value="368">IRAK</option>
+                                		<option value="364">IRAN (R&#233;publique islamique d')</option>
+                                		<option value="372">IRLANDE</option>
+                                		<option value="352">ISLANDE</option>
+                                		<option value="376">ISRA&#203;L</option>
+                                		<option value="380">ITALIE</option>
+                                		<option value="388">JAMA&#207;QUE</option>
+                                		<option value="392">JAPON</option>
+                                		<option value="400">JORDANIE</option>
+                                		<option value="398">KAZAKSTAN</option>
+                                		<option value="404">KENYA</option>
+                                		<option value="296">KIRIBATI</option>
+                                		<option value="-">KOSOVO</option>
+                                		<option value="414">KOWE&#207;T</option>
+                                		<option value="417">KYRGYZSTAN</option>
+                                		<option value="418">LAOS (R&#233;publique populaire d&#233;mocratique du)</option>
+                                		<option value="426">LESOTHO</option>
+                                		<option value="428">LETTONIE</option>
+                                		<option value="422">LIBAN</option>
+                                		<option value="430">LIB&#201;RIA</option>
+                                		<option value="434">LIBYE (JAMAHIRIYA ARABE LIBYENNE)</option>
+                                		<option value="438">LIECHTENSTEIN</option>
+                                		<option value="440">LITUANIE</option>
+                                		<option value="442">LUXEMBOURG</option>
+                                		<option value="446">MACAO</option>
+                                		<option value="807">MAC&#201;DOINE (ancienne R&#233;publique yougoslave de)</option>
+                                		<option value="450">MADAGASCAR</option>
+                                		<option value="458">MALAISIE</option>
+                                		<option value="454">MALAWI</option>
+                                		<option value="462">MALDIVES</option>
+                                		<option value="466">MALI</option>
+                                		<option value="238">MALOUINES (&#206;les)</option>
+                                		<option value="470">MALTE</option>
+                                		<option value="504">MAROC</option>
+                                		<option value="584">MARSHALL (&#206;les)</option>
+                                		<option value="480">MAURICE</option>
+                                		<option value="478">MAURITANIE</option>
+                                		<option value="484">MEXIQUE</option>
+                                		<option value="583">MICRON&#201;SIE (&#201;tats f&#233;d&#233;r&#233;s de)</option>
+                                		<option value="498">MOLDAVIE</option>
+                                		<option value="492">MONACO</option>
+                                		<option value="496">MONGOLIE</option>
+                                		<option value="499">MONTENEGRO</option>
+                                		<option value="500">MONTSERRAT</option>
+                                		<option value="508">MOZAMBIQUE</option>
+                                		<option value="516">NAMIBIE</option>
+                                		<option value="524">N&#201;PAL</option>
+                                		<option value="558">NICARAGUA</option>
+                                		<option value="562">NIGER</option>
+                                		<option value="566">NIG&#201;RIA</option>
+                                		<option value="578">NORV&#200;GE</option>
+                                		<option value="554">NOUVELLE Z&#201;LANDE</option>
+                                		<option value="512">OMAN</option>
+                                		<option value="800">OUGANDA</option>
+                                		<option value="860">OUZB&#201;KISTAN</option>
+                                		<option value="586">PAKISTAN</option>
+                                		<option value="585">PALAU</option>
+                                		<option value="591">PANAMA</option>
+                                		<option value="598">PAPOUASIE NOUVELLE GUIN&#201;E</option>
+                                		<option value="600">PARAGUAY</option>
+                                		<option value="528">PAYS-BAS</option>
+                                		<option value="604">P&#201;ROU</option>
+                                		<option value="608">PHILIPPINES</option>
+                                		<option value="612">PITCA&#207;RN</option>
+                                		<option value="616">POLOGNE</option>
+                                		<option value="630">PORTO RICO</option>
+                                		<option value="620">PORTUGAL</option>
+                                		<option value="634">QATAR</option>
+                                		<option value="642">ROUMANIE</option>
+                                		<option value="826">ROYAUME UNI</option>
+                                		<option value="643">RUSSIE (F&#233;d&#233;ration de)</option>
+                                		<option value="646">RWANDA</option>
+                                		<option value="732">SAHARA OCCIDENTAL</option>
+                                		<option value="659">SAINT KITTS ET NEVIS</option>
+                                		<option value="670">SAINT VINCENT ET GRENADINES</option>
+                                		<option value="654">SAINTE H&#201;L&#200;NE</option>
+                                		<option value="662">SAINTE LUCIE</option>
+                                		<option value="090">SALOMON (&#206;les)</option>
+                                		<option value="222">SALVADOR</option>
+                                		<option value="882">SAMOA</option>
+                                		<option value="674">SAN MARIN</option>
+                                		<option value="678">SAO TOM&#201; ET PRINCIPE</option>
+                                		<option value="686">S&#201;N&#201;GAL</option>
+                                		<option value="688">SERBIE</option>
+                                		<option value="690">SEYCHELLES</option>
+                                		<option value="694">SIERRA L&#201;ONE</option>
+                                		<option value="702">SINGAPOUR</option>
+                                		<option value="703">SLOVAQUIE</option>
+                                		<option value="705">SLOV&#201;NIE</option>
+                                		<option value="706">SOMALIE</option>
+                                		<option value="736">SOUDAN</option>
+                                		<option value="144">SRI LANKA</option>
+                                		<option value="752">SU&#200;DE</option>
+                                		<option value="756">SUISSE</option>
+                                		<option value="740">SURINAME</option>
+                                		<option value="748">SWAZILAND</option>
+                                		<option value="760">SYRIE (R&#233;publique arabe syrienne)</option>
+                                		<option value="762">TADJIKISTAN</option>
+                                		<option value="158">TA&#207;WAN</option>
+                                		<option value="834">TANZANIE</option>
+                                		<option value="148">TCHAD</option>
+                                		<option value="203">TCH&#200;QUE (R&#233;publique)</option>
+                                		<option value="764">THA&#207;LANDE</option>
+                                		<option value="626">TIMOR ORIENTAL</option>
+                                		<option value="768">TOGO</option>
+                                		<option value="776">TONGA</option>
+                                		<option value="780">TRINIDAD ET TOBAGO</option>
+                                		<option value="788">TUNISIE</option>
+                                		<option value="795">TURKM&#201;NISTAN</option>
+                                		<option value="792">TURQUIE</option>
+                                		<option value="804">UKRAINE</option>
+                                		<option value="858">URUGUAY</option>
+                                		<option value="548">VANUATU</option>
+                                		<option value="862">V&#201;N&#201;ZUELA</option>
+                                		<option value="704">VIETNAM</option>
+                                		<option value="887">YEMEN</option>
+                                		<option value="894">ZAMBIE</option>
+                                		<option value="716">ZIMBABWE</option>
+
+                                	</select>
+                                                </div>
+                                            </div>
+
+                                </div>
+                                <!-- debut zone téléphone -->
+                                        <div id="LocalizedPanelTelephones" class="form-group">
+
+
+                                			<div>
+                                					<div class="form-group">
+                                						<div class="col-sm-3">
+                                							<span id="LabelTelPortable" class="control-label">Portable :</span>
+                                							<span id="panel_phone2" class="ResumeErreurs">*</span>
+                                						</div>
+                                						<div class="col-sm-1">
+                                							<input name="txt_indicatifPortable" type="text" maxlength="4" id="txt_indicatifPortable" tabindex="200" size="4" class="form-control" value="+33" style="width: 50px" />
+                                						</div>
+                                					   <div class="col-sm-8">
+                                							<input name="TextBoxTelPortable" type="text" maxlength="20" id="TextBoxTelPortable" tabindex="210" class="form-control" placeholder="Saisir votre numéro de téléphone sur 10 chiffres (Exemple : 06XXXXXXXX)" />
+
+                                						</div>
+                                					</div>
+
+
+                                					<div class="form-group">
+                                						<div class="col-sm-3">
+                                							<span id="panel_EtOu" class="ZoneLibelle">et/ou</span> <span id="LabelTel" class="control-label">Téléphone :</span>
+                                						<span id="panel_phone1" class="ResumeErreurs">*</span>
+                                						</div>
+                                						<div class="col-sm-1">
+                                							<input name="txt_indicatifTelephone" type="text" maxlength="4" id="txt_indicatifTelephone" tabindex="220" size="4" class="form-control" value="+33" style="width: 50px" />
+                                						</div>
+                                					   <div class="col-sm-8">
+                                							<input name="TextBoxTel" type="text" maxlength="20" id="TextBoxTel" tabindex="230" class="form-control" placeholder="Saisir votre numéro de téléphone sur 10 chiffres (Exemple : 06XXXXXXXX)" />
+
+
+
+                                						</div>
+                                												<div class="col-sm-9 col-sm-offset-3">
+                                							<span id="PhonesValidator" style="color:Red;display:none;">Merci de renseigner votre téléphone</span>
+                                						</div>
+                                					</div>
+
+                                            </div>
+
+                                </div>
+
+                                <div class="col-sm-9">
+                                                <input type="submit" name="SaveDemande" value="Enregistrer" onclick="return ValidateDemande();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;SaveDemande&quot;, &quot;&quot;, true, &quot;ChampObligatoire&quot;, &quot;&quot;, false, false))" id="SaveDemande" class="button" />
+                                            </div>
+
+
+
+
+                    </div>
+                </div>
+
+
+                    <footer>
+                        <div id="footer-top">
+                            <div class="inner">
+                                <a class="membre-hep" href="http://www.hep-education.com/" target="_blank"></a>
+                            </div>
+                        </div>
+                        <div id="footer-bottom">
+                            <div class="inner">
+                                <div class="flex">
+                                    <nav id="menu-f-1" class="menu-footer-gauche-container">
+                                        <ul id="menu-footer-gauche" class="menu">
+                                            <li id="menu-item-4745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4745"><a href="http://www.epsi.fr/epsi/bienvenue-a-lepsi/">EPSI</a></li>
+                                            <li id="menu-item-4746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4746"><a href="http://www.epsi.fr/programmes/panorama-des-etudes/">PROGRAMMES</a></li>
+                                            <li id="menu-item-4747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4747"><a href="http://www.epsi.fr/admissions/integrer-lepsi/">Admissions</a></li>
+                                            <li id="menu-item-4748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4748"><a href="http://www.epsi.fr/alternance/formation-en-alternance/">alternance</a></li>
+                                        </ul>
+                                    </nav>
+                                    <a class="logo" href="http://www.epsi.fr/"></a>
+                                    <nav id="menu-f-2" class="menu-footer-droite-container">
+                                        <ul id="menu-footer-droite" class="menu">
+                                            <li id="menu-item-4742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4742"><a href="http://www.epsi.fr/innovation-lab/my-dil/">Innovation Lab</a></li>
+                                            <li id="menu-item-4743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4743"><a href="http://www.epsi.fr/reseau-epsi/">Campus</a></li>
+                                            <li id="menu-item-4750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4750"><a href="http://www.epsi.fr/emploi-entreprise/vae-informatique/">Formation CONTINUE</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+    <script>
+    (jQuery, window, document), $(document).ready(function () {
+        $(".accordeon-title").length > 0 && $(".accordeon-title").click(function () {
+            $(this).hasClass("ouvert") ? ($(this).removeClass("ouvert"), $(this).next(".accordeon-content").slideToggle()) : ($(this).addClass("ouvert"), $(this).next(".accordeon-content").slideDown())
+        })
+    }), $(document).ready(function () {
+        $(".magnetic .picto-wrapper").click(function (e) {
+            e.preventDefault(), $(this).parent(".un-cta").toggleClass("ouvert")
+        })
+    });
+    </script>
+    <script>(function(f,o,x){var a=f.getElementsByTagName(o)[0],b=f.createElement(o);b.async=true;b.id='__js_lm_00';b.src='//app.leadfox.co/js/api/init.js?key='+x;a.parentNode.insertBefore(b,a);})(document,'script','ef73f2a8528a9c4bd0ceb8e93c97327f');</script>
+
+    <script type='text/javascript'>
+    /* <![CDATA[ */
+    var cnArgs = {"ajaxurl":"http:\/\/www.epsi.fr\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"TRUE","cookieTime":"2592000","cookiePath":"\/","cookieDomain":""};
+    /* ]]> */
+    </script>
+  <script type='text/javascript' src='js/global.js'></script>
+    <script src="js/front.js"></script>
+    <script src="js/other.js"></script>
+</body>
+
+</html>
